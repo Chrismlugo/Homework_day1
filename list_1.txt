@@ -1,16 +1,31 @@
-pwd
-cd
-ls
-.
-..
--l
--m
-mkdir
-touch
-git init
-git add
-git status
-git log
-git commit
-origin
-master
+pwd: current working directory
+
+cd: changes directory
+
+ls: lists sub-directories within current directory
+
+. : executes within current directory
+
+.. : moves up from current directory to its parent directory.
+
+-l : lists in long form
+
+-a : lists all working directory contents including hidden files.
+
+-m : allows a comment to be written
+
+mkdir : makes new directory
+
+touch : makes new file
+
+git init : initialise git
+
+git add : stages file in git
+
+git commit : commits changes to git
+
+git status : checks git status
+
+git log: shows all previous commits
+
+origin : calls the master branch
