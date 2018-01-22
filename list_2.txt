@@ -1,0 +1,7 @@
+html: .html
+css: .css
+ruby: .rb
+python: .py
+java: .java
+Javascript: .js
+agile: .agd
