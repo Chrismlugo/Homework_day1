@@ -1,6 +1,16 @@
-bread
-milk
-butter
-eggs
-beer
-bacon
+pwd
+cd
+ls
+.
+..
+-l
+-m
+mkdir
+touch
+git init
+git add
+git status
+git log
+git commit
+origin
+master
