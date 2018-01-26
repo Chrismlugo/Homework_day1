@@ -1,5 +1,5 @@
 def pet_shop_name(name)
-@pet_shop[:name]
+  @pet_shop[:name]
 end
 
 def total_cash(sum)
@@ -8,7 +8,7 @@ end
 
 def add_or_remove_cash(cash, amount)
 
-cash = @pet_shop[:admin][:total_cash] + amount
+  cash = @pet_shop[:admin][:total_cash] + amount
 
   @pet_shop[:admin][:total_cash] = cash
 
@@ -16,7 +16,7 @@ end
 
 def add_or_remove_cash(cash, amount)
 
-cash = @pet_shop[:admin][:total_cash] + amount
+  cash = @pet_shop[:admin][:total_cash] + amount
 
   @pet_shop[:admin][:total_cash] = cash
 
@@ -44,7 +44,7 @@ def pets_by_breed(pets, breed)
     end
   end
   return number_of_pet_type
-  end
+end
 
   def pets_by_breed(pets, breed)
     number_of_pet_type = []
@@ -96,7 +96,9 @@ end
 
 def add_pet_to_customer(customer, add_pet)
 
-  return add_pet =  customer[:pets] << @new_pet
+  add_pet =  customer[:pets] << @new_pet
+
+  return add_pet 
 
 end
 
