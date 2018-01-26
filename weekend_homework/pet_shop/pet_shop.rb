@@ -98,11 +98,11 @@ def add_pet_to_customer(customer, add_pet)
 
   add_pet =  customer[:pets] << @new_pet
 
-  return add_pet 
+  return add_pet
 
 end
 
-def customer_can_afford_pet(customer, funds)
+def customer_can_afford_pet(customer, price)
 
   cash = customer[:cash]
   price = @new_pet[:price]
